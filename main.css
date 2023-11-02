@@ -1,5 +1,6 @@
 body {
     background-color: aquamarine;
+    width:100%;
 }
 
 h1 {
@@ -29,4 +30,5 @@ img {
     /* border: 5px solid red; */
     margin: auto;
     box-shadow: 0px 0px 15px blue;
+    width:100%;
 }
