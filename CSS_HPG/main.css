@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Georgia, serif;
     /* background-color: #000039; */
     background-color: var(--BG-new-color);
 }
@@ -98,6 +99,7 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    cursor:pointer;
 }
 
 .header .container .nav-links .icon span {
@@ -354,7 +356,7 @@ body {
         font-size: 22px;
     }
     #contact .info .social {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 /* End Contact */

@@ -201,11 +201,12 @@
 
 .section .container .departments .D a {
     display: block;
+    text-align: center;
     text-decoration: none;
+    cursor:help;
     border-radius: 5px;
     border: 1px blue solid;
     box-shadow: 0px 0px 2px var(--main-shadow-color);
-    text-align: center;
     padding: 3px;
     color: var(--main-2-color);
 }
