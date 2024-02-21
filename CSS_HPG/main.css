@@ -314,6 +314,10 @@ body {
     display:block;
 }
 
+#contact .container h2 {
+    font-weight: 900;
+}
+
 #contact .container .info {
     text-align: center;
     color: var(--main-1-color);
@@ -336,7 +340,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px 0 5px 0;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 #contact .container .info .social i {
@@ -350,7 +354,7 @@ body {
         font-size: 22px;
     }
     #contact .info .social {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 /* End Contact */
