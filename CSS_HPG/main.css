@@ -348,6 +348,11 @@ body {
 #contact .container .info .social i {
     color: var(--main-11-color);
     margin-left: 10px;
+    text-align: center;
+}
+
+#contact .container .info .social i:hover {
+    font-size: 20px;
 }
 
 @media (max-width: 767px) {
@@ -355,8 +360,12 @@ body {
     #contact .container .info .link {
         font-size: 22px;
     }
-    #contact .info .social {
-        font-size: 11px;
+    #contact .container .info .social {
+        font-size: 14px;
+    }
+
+    #contact .container .info .social i:hover {
+        font-size: 16px;
     }
 }
 /* End Contact */

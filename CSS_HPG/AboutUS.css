@@ -1,0 +1,7 @@
+body {
+    color: var(--main-1-color);
+}
+
+.section .container .img {
+    background-image: url();
+}

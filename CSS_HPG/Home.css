@@ -197,6 +197,12 @@
     text-shadow: 0px 0px 2px black;
     font-size: 17px;
     line-height: 1.5;
+    /* white-space: pre-line; */
+    /* word-break: keep-all; */
+    /* overflow-wrap:inherit; */
+    /* word-break:break-all; */
+    /* word-wrap: break-word; */
+    /* hyphens: manual; */
 } 
 
 .section .container .departments .D a {
