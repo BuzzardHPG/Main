@@ -2,6 +2,49 @@ body {
     color: var(--main-1-color);
 }
 
-.section .container .img {
-    background-image: url();
+.section {
+    background-image: url(./../B_IMGS/gradient\ blue\ \ with\ background\ Egyptian\ pyramids.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 60px;
+    border-radius: 30px;
+    border-bottom: solid 2px orange;
+    box-shadow: 0px 0px 15px orange;
+}
+
+.section .container {
+    display: grid;
+    text-shadow: 2px 2px 1px black;
+}
+
+.section .container .description ,
+.section .container .message,
+.section .container .objective,
+.section .container .vision {
+    background-color: var(--main-element-BG);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    border: 1px solid orange;
+    box-shadow: 0px 0px 5px orange;
+}
+
+.section .container .description li {
+    margin-left: 20px;
+}
+
+.section .container .description p,
+.section .container .message p,
+.section .container .objective p,
+.section .container .vision p {
+    margin-left: 15px;
+}
+
+.section .container .contact p {
+    margin-top: -2px;
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: 800;
 }

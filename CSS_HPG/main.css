@@ -80,6 +80,7 @@ body {
     position: fixed;
     z-index: 1;
     width: 100%;
+    margin-top: 5px;
     box-shadow: 0px 0px 15px var(--main-shadow-color);
     background-color: var(--main-element-BG);
 }
@@ -302,7 +303,7 @@ body {
 
 /* Start Contact */
 #contact {
-    margin-top: 35px;
+    margin-top: 18px;
     padding-top: 30px;
     padding-bottom: 2%;
     background-color: var(--main-element-BG);

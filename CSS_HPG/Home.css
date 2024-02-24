@@ -1,16 +1,21 @@
 /* Start Landing */
 .landing {
     background-image: url(../B_IMGS/Landing_img.png);
+    background-position: center;
     background-size: cover;
     height: 100vh;
     margin: 0;
-    margin-top:5px;
     position: relative;
+    border: 1px solid var(--main-shadow-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 10px var(--main-shadow-color);
 }
 
 .landing .Intro-text {
     background-color: var(--main-element-BG);
+    /* border: 1px solid orange;
+    box-shadow: 0px 0px 3px orange; */
     padding-top: 10px;
     border-radius: 15px;
     position: absolute;
@@ -116,6 +121,22 @@
 /* End Landing */
 
 /* Start Section */
+.section {
+    background-image: url(./../B_IMGS/gradient\ blue\ \ with\ background\ Egyptian\ pyramids_1.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    margin-top: 12px;
+    padding-bottom: 10px;
+    border: 1px solid var(--main-shadow-color);
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 10px var(--main-shadow-color); */
+    border: 1px solid orange;
+    box-shadow: 0px 0px 10px orange;
+    border-bottom: solid 2px orange;
+    box-shadow: 0px 0px 15px orange;
+}
+
 .section .container {
     display: grid;
     overflow: hidden;
@@ -123,6 +144,7 @@
 
 .section .container .Intro {
     border: 1px blue solid;
+    border-radius: 10px;
     color: var(--main-11-color);
     text-align: center;
     margin: 15px 5px;
@@ -165,21 +187,25 @@
 }
 
 .section .container .departments .D div {
-    background-color: var(--seconed-element-BG);
+    background-color: var(--main-element-BG);
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 8px;
+    padding: 7px;
+    border: 1px solid var(--main-111-color);
+    box-shadow: 0px 0px 5px var(--main-111-color);
 }
 
-@media (min-width:627px) {
+/* @media (min-width:627px) {
     .section .container .departments .D div {
-        /* height: 200px; */
+        height: 200px;
     }
-}
+} */
 
 .section .container .departments .D h3 {
     margin: 0;
-    padding:0 7px;
+    margin-top: -2px;
+    padding:0 5px;
     padding-top: 10px;
     text-align: left;
     overflow: hidden;
@@ -193,20 +219,14 @@
     padding: 0 10px;
     text-indent: 20px;
     text-align: justify;
-    /* text-align-last: justify; */
-    text-shadow: 0px 0px 2px black;
+    text-shadow: 2px 2px 1px black;
     font-size: 17px;
     line-height: 1.5;
-    /* white-space: pre-line; */
-    /* word-break: keep-all; */
-    /* overflow-wrap:inherit; */
-    /* word-break:break-all; */
-    /* word-wrap: break-word; */
-    /* hyphens: manual; */
 } 
 
 .section .container .departments .D a {
     display: block;
+    background-color: var(--main-element-BG);
     text-align: center;
     text-decoration: none;
     cursor:help;
@@ -218,8 +238,10 @@
 }
 
 .section .container .departments .D a:hover {
+    border: 1px solid var(--main-111-color);
+    box-shadow: 0px 0px 2px var(--main-111-color);
     border-radius: 10px;
-    background-color: var(--seconed-element-BG);
+    background-color: var(--main-element-BG);
     color: var(--main-11-color);
 }
 /* End Section */
